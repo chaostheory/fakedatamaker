@@ -1,3 +1,5 @@
+![robot assembly line picture](http://i.imgur.com/o6LGu.png)
+
 # Introducing FakeDataMaker
 
 Need dummy data for testing? Well look no further.
@@ -8,23 +10,21 @@ FakeDataMaker for Java can generate all kinds of garbage data like:
 * Random Dates
 * Email Address
 * Mailing Addresses
+* Username generation for major online providers
 * URLs and more!!!
 
 ## Mini-Roadmap
 
 ### Soonish
 
-* Username generation for major online providers
 * Company Names
-* Better URL generation
 * Documentation with Examples (there are some BDD tests though you can look at now)
-* US-centric random data generation
 
 ### A Little Later
 
 * Housecleaning (packaging and stuff)
 * Canadian-centric random data generation
-* UK-centric random data generation
+* British-centric random data generation
 * Australian-centric random data generation
 
 ### Someday / Maybe / Maybe Not
@@ -49,3 +49,5 @@ _(The order listed here may or may not be the actual order of when I start worki
 ## Acknowledgements
 
 This project was inspired by [Faker](http://faker.rubyforge.org/) _(Ruby is cool)_ which in turn was inspired by [Data::Faker](http://search.cpan.org/~wsheldahl/Data-Faker-0.10_01/lib/Data/Faker.pm)
+
+Photo by [Ford APA](http://www.flickr.com/photos/fordapa/) under Creative Commons.
