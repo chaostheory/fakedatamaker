@@ -20,7 +20,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 
-import fakedatamaker.datetime.type.DateRange;
 
 public class FakeDateFactory {
 	private static final Random RANDOM = new Random();

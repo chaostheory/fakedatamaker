@@ -16,7 +16,6 @@
 
 package fakedatamaker.organization;
 
-import fakedatamaker.organization.type.FakeCompany;
 
 public class FakeCompanyFactory {
 	public static FakeCompany makeCompany(){

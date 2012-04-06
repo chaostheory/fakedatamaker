@@ -14,32 +14,13 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.address.type;
+package fakedatamaker.contact.phone;
 
-public class USState {
-	private String fullName = null;
-	private String abbreviation = null;
-	
-	/**
-	 * 
-	 * @param fullName
-	 * @param abbreviation
-	 */
-	public USState(String fullName, String abbreviation){
-		this.fullName = fullName;
-		this.abbreviation = abbreviation;
-	}
-	
-	public String getFullName() {
-		return fullName;
-	}
-	public void setFullName(String fullName) {
-		this.fullName = fullName;
-	}
-	public String getAbbreviation() {
-		return abbreviation;
-	}
-	public void setAbbreviation(String abbreviation) {
-		this.abbreviation = abbreviation;
+public class FakePhoneException extends Exception {
+
+	private static final long serialVersionUID = -4880516743180234594L;
+
+	public FakePhoneException(String message){
+		super(message);
 	}
 }

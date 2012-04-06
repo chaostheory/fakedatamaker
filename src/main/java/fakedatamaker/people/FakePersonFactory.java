@@ -16,7 +16,6 @@
 
 package fakedatamaker.people;
 
-import fakedatamaker.people.type.FakePerson;
 
 public class FakePersonFactory{
 	

@@ -14,8 +14,9 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.phone.type;
+package fakedatamaker.contact.phone.us;
 
+import fakedatamaker.contact.phone.FakePhoneException;
 import fakedatamaker.contact.phone.FakePhoneFactory.USPhoneFormats;
 
 public class FakeUSPhone {

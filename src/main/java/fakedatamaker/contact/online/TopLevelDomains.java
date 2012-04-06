@@ -1,4 +1,4 @@
-package fakedatamaker.contact.online.type;
+package fakedatamaker.contact.online;
 
 public enum TopLevelDomains {
 	COM {

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.address.type;
+package fakedatamaker.contact.address.us;
 
 import java.util.Arrays;
 import java.util.Collections;

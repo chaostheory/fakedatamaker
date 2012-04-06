@@ -14,14 +14,17 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.address.type;
+package fakedatamaker.contact.address;
 
 public abstract class FakeAddress {
-	private String country = null;
-	private String postalCode = null;
-	private Integer streetNumber = null;
-	private String streetLineOne = null;
-	
+	protected String country = null;
+	protected String postalCode = null;
+	protected String streetNumber = null;
+	protected String streetName = null;
+	protected String streetLineOne = null;
+	protected String streetLineTwo = null;
+	protected String city = null;
+
 	public String getCountry() {
 		return country;
 	}
@@ -37,16 +40,44 @@ public abstract class FakeAddress {
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
-	
-	public abstract String getStreetLineOne();
-	
-	public abstract String getStreetLineTwo();
 
-	public Integer getStreetNumber() {
+	public String getStreetNumber() {
 		return streetNumber;
 	}
 
-	public void setStreetNumber(Integer streetNumber) {
+	public void setStreetNumber(String streetNumber) {
 		this.streetNumber = streetNumber;
+	}
+	
+	public String getStreetName() {
+		return streetName;
+	}
+
+	public void setStreetName(String streetName) {
+		this.streetName = streetName;
+	}
+
+	public String getStreetLineOne() {
+		return streetLineOne;
+	}
+
+	public void setStreetLineOne(String streetLineOne) {
+		this.streetLineOne = streetLineOne;
+	}
+
+	public String getStreetLineTwo() {
+		return streetLineTwo;
+	}
+
+	public void setStreetLineTwo(String streetLineTwo) {
+		this.streetLineTwo = streetLineTwo;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
 	}
 }

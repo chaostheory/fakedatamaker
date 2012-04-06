@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.people.type;
+package fakedatamaker.people;
 
 /**
  * This represents fake data related to a person.

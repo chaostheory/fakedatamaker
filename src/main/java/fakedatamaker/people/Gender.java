@@ -14,13 +14,9 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.phone.type;
+package fakedatamaker.people;
 
-public class FakePhoneException extends Exception {
-
-	private static final long serialVersionUID = -4880516743180234594L;
-
-	public FakePhoneException(String message){
-		super(message);
-	}
+public enum Gender {
+	FEMALE, 
+	MALE;
 }

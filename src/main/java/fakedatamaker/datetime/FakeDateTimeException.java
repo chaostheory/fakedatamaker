@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.datetime.type;
+package fakedatamaker.datetime;
 
 public class FakeDateTimeException extends Exception {
 	private static final long serialVersionUID = 7738841437766262020L;

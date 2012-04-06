@@ -14,34 +14,10 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.organization.type;
+package fakedatamaker.organization;
 
-public enum USCompanyType {
-	CTYPE {
-		@Override
-		public String value() {
-			return "Inc";
-		}
-	},
-	LLC {
-		@Override
-		public String value() {
-			return "LLC";
-		}
-	},
-	STYPE {
-		@Override
-		public String value() {
-			return "Inc";
-		}
-	},
-	LLP {
-		@Override
-		public String value() {
-			return "LLP";
-		}
-	};
-
-	
-	public abstract String value();
+public class FakeCompany extends FakeOrganization{
+	public FakeCompany(String name){
+		super(name);
+	}
 }

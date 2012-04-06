@@ -14,9 +14,22 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.people.type;
+package fakedatamaker.organization;
 
-public enum Gender {
-	FEMALE, 
-	MALE;
+public abstract class FakeOrganization {
+	protected String name = null;
+	
+	//TODO: add country
+	
+	public FakeOrganization(String name){
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }

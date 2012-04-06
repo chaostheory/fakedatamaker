@@ -14,22 +14,34 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.organization.type;
+package fakedatamaker.organization.us;
 
-public abstract class FakeOrganization {
-	protected String name = null;
-	
-	//TODO: add country
-	
-	public FakeOrganization(String name){
-		this.name = name;
-	}
-	
-	public String getName() {
-		return name;
-	}
+public enum USCompanyType {
+	CTYPE {
+		@Override
+		public String value() {
+			return "Inc";
+		}
+	},
+	LLC {
+		@Override
+		public String value() {
+			return "LLC";
+		}
+	},
+	STYPE {
+		@Override
+		public String value() {
+			return "Inc";
+		}
+	},
+	LLP {
+		@Override
+		public String value() {
+			return "LLP";
+		}
+	};
 
-	public void setName(String name) {
-		this.name = name;
-	}
+	
+	public abstract String value();
 }

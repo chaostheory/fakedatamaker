@@ -21,21 +21,39 @@ import java.util.Random;
 import org.apache.commons.math3.random.RandomData;
 import org.apache.commons.math3.random.RandomDataImpl;
 
-import fakedatamaker.contact.address.type.FakeUSAddress;
-import fakedatamaker.contact.address.type.USState;
-import fakedatamaker.contact.address.type.USStreetType;
+import fakedatamaker.contact.address.us.FakeUSAddress;
+import fakedatamaker.contact.address.us.USState;
+import fakedatamaker.contact.address.us.USStreetType;
 import fakedatamaker.util.RandomFileUtil;
 
-public class FakeAddressFactory {
+public class FakeUSAddressFactory {
 	private static final Random RANDOM = new Random();
 	private static final RandomData randomData = new RandomDataImpl();
 
 	/**
 	 * 
-	 * @return A FakeUSAddress instance.
+	 * @return
+	 * @throws FakeAddressException
 	 */
-	public static FakeUSAddress makeUSAddress() {
-		return null;
+	public static FakeUSAddress makeAddress() throws FakeAddressException {
+		return makeAddress(true, true);
+	}
+
+	/**
+	 * 
+	 * 
+	 * @param abbrStreetType
+	 * @param abbrState
+	 * 
+	 * @return A FakeUSAddress instance.
+	 * @throws FakeAddressException
+	 */
+	public static FakeUSAddress makeAddress(boolean abbrStreetType,
+			boolean abbrState) throws FakeAddressException {
+		return new FakeUSAddress(makeStreetNumber(), makeStreetName(),
+				USStreetType.randomStreetType(), makeCity(),
+				USState.randomState(), makePostalCode(), abbrStreetType,
+				abbrState);
 	}
 
 	/**
@@ -43,8 +61,9 @@ public class FakeAddressFactory {
 	 * 
 	 * @return A String
 	 */
-	public static String makeFullStreetName() {
-		return String.format("%s %s", makeStreetNumber(), makeStreetName());
+	public static String makeFullStreet() {
+		return String.format("%s %s", makeStreetNumber(), makeStreetName(),
+				true);
 	}
 
 	/**
@@ -52,11 +71,15 @@ public class FakeAddressFactory {
 	 * 
 	 * @param minStNumSize
 	 * @param maxStNumSize
+	 * @param abbreviate
+	 *            True to abbreviate the last portion of the street name.
 	 * @return
 	 */
-	public static String makeFullStreetName(int minStNumSize, int maxStNumSize) {
+	public static String makeFullStreet(int minStNumSize, int maxStNumSize,
+			boolean abbreviate) {
 		return String.format("%s %s",
-				makeStreetNumber(minStNumSize, maxStNumSize), makeStreetName());
+				makeStreetNumber(minStNumSize, maxStNumSize),
+				makeFullStreetName(abbreviate));
 	}
 
 	/**
@@ -90,8 +113,8 @@ public class FakeAddressFactory {
 		return result.toString();
 	}
 
-	public static String makeStreetName() {
-		return makeStreetName(true);
+	public static String makeFullStreetName() {
+		return makeFullStreetName(true);
 	}
 
 	/**
@@ -101,7 +124,7 @@ public class FakeAddressFactory {
 	 *            True to abbreviate the last portion of the street name.
 	 * @return A String
 	 */
-	public static String makeStreetName(boolean abbreviate) {
+	public static String makeFullStreetName(Boolean abbreviate) {
 		String streetName = RandomFileUtil.getRandomFileLine(
 				"resources/us_street_names.txt", "UTF-8");
 
@@ -118,6 +141,11 @@ public class FakeAddressFactory {
 		return String.format("%s %s", streetName, streetType);
 	}
 
+	public static String makeStreetName() {
+		return RandomFileUtil.getRandomFileLine(
+				"resources/us_street_names.txt", "UTF-8");
+	}
+
 	/**
 	 * 
 	 * @return
@@ -127,24 +155,28 @@ public class FakeAddressFactory {
 				"UTF-8");
 	}
 
+	/**
+	 * Returns a random US state.
+	 * 
+	 * @return A String
+	 */
 	public static String makeState() {
-		return RandomFileUtil.getRandomFileLine("resources/us_states.txt",
-				"UTF-8");
+		return USState.randomState().value();
 	}
 
+	/**
+	 * Returns a random abbreviated US state.
+	 * 
+	 * @return A String
+	 */
 	public static String makeStateAbbr() {
-		return RandomFileUtil.getRandomFileLine("resources/us_states_abbr.txt",
-				"UTF-8");
+		return USState.randomState().abbrValue();
 	}
 
-	public static USState makeStateFull() {
-		String result = RandomFileUtil.getRandomFileLine(
-				"resources/us_states_full.txt", "UTF-8");
-		String[] statesData = result.split(",");
-
-		return new USState(statesData[1], statesData[0]);
-	}
-
+	/**
+	 * 
+	 * @return
+	 */
 	public static String makePostalCode() {
 		StringBuffer result = new StringBuffer();
 
@@ -155,6 +187,10 @@ public class FakeAddressFactory {
 		return result.toString();
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public static String makePostalCodeFull() {
 		StringBuffer result = new StringBuffer();
 
@@ -176,6 +212,11 @@ public class FakeAddressFactory {
 		// System.out.println(state.getFullName());
 		// System.out.println(state.getAbbreviation());
 
-		System.out.println(FakeAddressFactory.makeCity());
+		try {
+			System.out.println(FakeUSAddressFactory.makeAddress());
+		} catch (FakeAddressException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

@@ -26,7 +26,7 @@ import org.junit.Test;
 
 import fakedatamaker.contact.phone.FakePhoneFactory;
 import fakedatamaker.contact.phone.FakePhoneFactory.USPhoneFormats;
-import fakedatamaker.contact.phone.type.FakeUSPhone;
+import fakedatamaker.contact.phone.us.FakeUSPhone;
 
 public class FakePhoneFactoryTest {
 	private Pattern dashOnlyPattern = Pattern

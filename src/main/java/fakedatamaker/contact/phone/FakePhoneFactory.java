@@ -18,8 +18,7 @@ package fakedatamaker.contact.phone;
 
 import java.util.Random;
 
-import fakedatamaker.contact.phone.type.FakePhoneException;
-import fakedatamaker.contact.phone.type.FakeUSPhone;
+import fakedatamaker.contact.phone.us.FakeUSPhone;
 
 public class FakePhoneFactory {
 	private static final Random RANDOM = new Random();

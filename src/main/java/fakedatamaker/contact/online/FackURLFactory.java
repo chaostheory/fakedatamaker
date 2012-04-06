@@ -16,7 +16,6 @@
 
 package fakedatamaker.contact.online;
 
-import fakedatamaker.contact.online.type.TopLevelDomains;
 
 public class FackURLFactory {
 	public static String makeDomain(){
