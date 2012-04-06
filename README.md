@@ -50,4 +50,8 @@ _(The order listed here may or may not be the actual order of when I start worki
 
 This project was inspired by [Faker](http://faker.rubyforge.org/) _(Ruby is cool)_ which in turn was inspired by [Data::Faker](http://search.cpan.org/~wsheldahl/Data-Faker-0.10_01/lib/Data/Faker.pm)
 
-Photo by [Ford APA](http://www.flickr.com/photos/fordapa/) under Creative Commons.
+Photo by [Ford APA](http://flickr.com/photos/fordapa/) under Creative Commons.
+
+Name data courtesy of the [US Census Bureau](http://census.gov/).
+
+Geographic data courtesy of [Freebase](http://freebase.com) and [Wikipedia](http://wikipedia.org).
