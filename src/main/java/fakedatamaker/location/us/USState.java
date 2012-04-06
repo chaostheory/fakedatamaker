@@ -1,4 +1,4 @@
-package fakedatamaker.contact.address.us;
+package fakedatamaker.location.us;
 
 import java.util.Arrays;
 import java.util.Collections;

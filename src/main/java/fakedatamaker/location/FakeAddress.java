@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.address;
+package fakedatamaker.location;
 
 public abstract class FakeAddress {
 	protected String country = null;

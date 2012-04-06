@@ -20,6 +20,10 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 public class FakeUsernameFactory {
 
+	private FakeUsernameFactory() {
+
+	}
+
 	public static String makeRandomAlphaNumericUsername() {
 		return RandomStringUtils.randomAlphanumeric(8);
 	}
@@ -35,40 +39,40 @@ public class FakeUsernameFactory {
 	public static String makeRandomAlphaNumericPassword(int maxSize) {
 		return RandomStringUtils.randomAlphanumeric(maxSize);
 	}
-	
+
 	/**
 	 * Creates a valid Twitter username.
 	 * 
 	 * @return A String
 	 */
-	public String makeTwitterUser(){
+	public String makeTwitterUser() {
 		return RandomStringUtils.randomAlphanumeric(15);
 	}
-	
-	public String makeFacebookPageId(){
-		//TODO
+
+	public String makeFacebookPageId() {
+		// TODO
 		return null;
 	}
-	
+
 	/**
 	 * Creates a valid AIM username.
 	 * 
 	 * @return A String
 	 */
-	public String makeAIMUser(){
+	public String makeAIMUser() {
 		return RandomStringUtils.randomAlphanumeric(32);
 	}
-	
-	public String makeGoogleUser(){
-		//TODO add periods to the mix
+
+	public String makeGoogleUser() {
+		// TODO add periods to the mix
 		return RandomStringUtils.randomAlphanumeric(30);
 	}
-	
-	public String makeYahooUser(){
+
+	public String makeYahooUser() {
 		return RandomStringUtils.randomAlphanumeric(32);
 	}
-	
-	public String makeMicrosoftUser(){
+
+	public String makeMicrosoftUser() {
 		return RandomStringUtils.randomAlphanumeric(64);
 	}
 }

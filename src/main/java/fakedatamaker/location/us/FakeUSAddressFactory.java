@@ -14,14 +14,14 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.address.us;
+package fakedatamaker.location.us;
 
 import java.util.Random;
 
 import org.apache.commons.math3.random.RandomData;
 import org.apache.commons.math3.random.RandomDataImpl;
 
-import fakedatamaker.contact.address.FakeAddressException;
+import fakedatamaker.location.FakeAddressException;
 import fakedatamaker.util.RandomFileUtil;
 
 public class FakeUSAddressFactory {

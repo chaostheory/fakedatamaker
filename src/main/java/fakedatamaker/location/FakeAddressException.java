@@ -1,4 +1,4 @@
-package fakedatamaker.contact.address;
+package fakedatamaker.location;
 
 public class FakeAddressException extends Exception {
 	private static final long serialVersionUID = 2428987799888611149L;

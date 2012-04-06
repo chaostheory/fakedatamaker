@@ -18,6 +18,10 @@ package fakedatamaker.contact.online;
 
 
 public class FackURLFactory {
+	private FackURLFactory() {
+
+	}
+	
 	public static String makeDomain(){
 		return null;
 	}

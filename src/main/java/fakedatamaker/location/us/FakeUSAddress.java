@@ -14,12 +14,12 @@
  *  limitations under the License.
  */
 
-package fakedatamaker.contact.address.us;
+package fakedatamaker.location.us;
 
 import org.apache.commons.lang3.StringUtils;
 
-import fakedatamaker.contact.address.FakeAddress;
-import fakedatamaker.contact.address.FakeAddressException;
+import fakedatamaker.location.FakeAddress;
+import fakedatamaker.location.FakeAddressException;
 
 public class FakeUSAddress extends FakeAddress {
 	private USState usState = null;
