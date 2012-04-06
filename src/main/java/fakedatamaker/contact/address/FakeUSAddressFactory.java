@@ -126,7 +126,7 @@ public class FakeUSAddressFactory {
 	 */
 	public static String makeFullStreetName(Boolean abbreviate) {
 		String streetName = RandomFileUtil.getRandomFileLine(
-				"resources/us_street_names.txt", "UTF-8");
+				"resources/english_street_names.txt", "UTF-8");
 
 		String streetType = null;
 
@@ -143,7 +143,7 @@ public class FakeUSAddressFactory {
 
 	public static String makeStreetName() {
 		return RandomFileUtil.getRandomFileLine(
-				"resources/us_street_names.txt", "UTF-8");
+				"resources/english_street_names.txt", "UTF-8");
 	}
 
 	/**

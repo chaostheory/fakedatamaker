@@ -34,6 +34,14 @@ public class FackURLFactory {
 		return null;
 	}
 	
+	public static String makeIPv4Address(){
+		return null;
+	}
+	
+	public static String makeIPv6Address(){
+		return null;
+	}
+	
 	public static Integer makePortNumber(){
 		return null;
 	}

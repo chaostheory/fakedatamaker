@@ -36,9 +36,13 @@ public class FakeUsernameFactory {
 		return RandomStringUtils.randomAlphanumeric(maxSize);
 	}
 	
+	/**
+	 * Creates a valid Twitter username.
+	 * 
+	 * @return A String
+	 */
 	public String makeTwitterUser(){
-		//TODO
-		return null;
+		return RandomStringUtils.randomAlphanumeric(15);
 	}
 	
 	public String makeFacebookPageId(){
@@ -46,23 +50,25 @@ public class FakeUsernameFactory {
 		return null;
 	}
 	
+	/**
+	 * Creates a valid AIM username.
+	 * 
+	 * @return A String
+	 */
 	public String makeAIMUser(){
-		//TODO
-		return null;
+		return RandomStringUtils.randomAlphanumeric(32);
 	}
 	
 	public String makeGoogleUser(){
-		//TODO
-		return null;
+		//TODO add periods to the mix
+		return RandomStringUtils.randomAlphanumeric(30);
 	}
 	
 	public String makeYahooUser(){
-		//TODO
-		return null;
+		return RandomStringUtils.randomAlphanumeric(32);
 	}
 	
 	public String makeMicrosoftUser(){
-		//TODO
-		return null;
+		return RandomStringUtils.randomAlphanumeric(64);
 	}
 }

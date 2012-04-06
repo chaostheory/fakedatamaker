@@ -60,11 +60,11 @@ public class FakeEmailFactory {
 	}
 
 	/**
+	 * Creates an email based on a first and last name.
 	 * 
-	 * 
-	 * @param firstName
-	 * @param lastName
-	 * @return
+	 * @param firstName The person's first name.
+	 * @param lastName The person's last name.
+	 * @return A String
 	 * @throws Exception
 	 */
 	public static String makeEmail(String firstName, String lastName) throws Exception {
@@ -80,10 +80,10 @@ public class FakeEmailFactory {
 	}
 
 	/**
+	 * Creates an email based on a first and last name.
 	 * 
-	 * 
-	 * @param firstName
-	 * @param lastName
+	 * @param firstName The person's first name.
+	 * @param lastName The person's last name.
 	 * @param domain
 	 * @return
 	 * @throws Exception

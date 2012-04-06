@@ -76,14 +76,12 @@ Armstrong
 Arriba
 Arrowbear Lake
 Arvada
-Arvada
 Ash Flat
 Ashdown
 Ashford
 Ashland
 Aspen
 Astatula
-Athens
 Athens
 Atkins
 Atlanta
@@ -97,7 +95,6 @@ Auburndale
 Augusta
 Augusta
 Ault
-Aurora
 Aurora
 Austin
 Autaugaville
@@ -169,7 +166,6 @@ Biggers
 Biggs
 Billings
 Birmingham
-Birmingham
 Bisbee
 Biscayne Park
 Bishop
@@ -239,7 +235,6 @@ Brooksville
 Brookwood
 Broomfield
 Brownsville
-Brownsville
 Brundidge
 Brush
 Bryant
@@ -249,7 +244,6 @@ Buena Vista
 Buffalo
 Bullhead City
 Bunnell
-Burbank
 Burbank
 Burdette
 Burlington
@@ -288,7 +282,6 @@ Cantonment
 Canyon
 Cape Canaveral
 Cape Coral
-Cape Coral
 Capitola
 Capps
 Caraway
@@ -298,7 +291,6 @@ Carlisle
 Carlsbad
 Carnesville
 Carrabelle
-Carrollton
 Carrollton
 Carthage
 Cary
@@ -331,8 +323,6 @@ Cerritos
 Chaires
 Chamblee
 Chandler
-Chandler
-Charleston
 Charleston
 Charlotte
 Chatom
@@ -463,7 +453,6 @@ Daggett
 Daisy
 Daleville
 Dallas
-Dallas
 Daly City
 Damascus
 Danbury
@@ -482,7 +471,6 @@ Davie
 Davis
 Dawson
 Dawsonville
-Dayton
 Dayton
 Daytona Beach
 De Beque
@@ -572,7 +560,6 @@ El Dorado
 El Mirage
 El Monte
 El Nido
-El Paso
 El Paso
 El Portal
 Elaine
@@ -844,10 +831,8 @@ Hawkinsville
 Hawthorne
 Haxtun
 Hayden
-Hayden
 Haynes
 Hayneville
-Hayward
 Hayward
 Hazen
 Hazlehurst
@@ -905,7 +890,6 @@ Hot Springs
 Hot Sulphur Springs
 Hotchkiss
 Houston
-Houston
 Hoxie
 Hoyt
 Hudson
@@ -946,7 +930,6 @@ Isleton
 Italia
 Jackson
 Jacksonport
-Jacksonville
 Jacksonville
 Jacksonville Beach
 Jacumba
@@ -1023,7 +1006,6 @@ Lake Havasu City
 Lake Helen
 Lake Mary
 Lake Park
-Lake Park
 Lake Placid
 Lake Village
 Lake Wales
@@ -1072,7 +1054,6 @@ Letona
 Lewes
 Lewisville
 Lexington
-Lexington
 Leyden
 Lillian
 Limon
@@ -1082,7 +1063,6 @@ Linden
 Lineville
 Lisman
 Litchfield
-Little Rock
 Little Rock
 Littlefield
 Littleton
@@ -1276,7 +1256,6 @@ Mountain View
 Mountainburg
 Mulberry
 Murfreesboro
-Murfreesboro
 Murrieta
 Muscle Shoals
 Myrtlewood
@@ -1296,7 +1275,6 @@ New Britain
 New Brockton
 New Canaan
 New Castle
-New Haven
 New Haven
 New Hope
 New London
@@ -1325,7 +1303,6 @@ Norcross
 Norfolk
 Norfork
 Norman
-Norman
 Norman Park
 Norphlet
 North Bay Village
@@ -1337,7 +1314,6 @@ North Miami Beach
 North Palm Beach
 Northglenn
 Northport
-Norwalk
 Norwalk
 Norwich
 Norwood
@@ -1373,14 +1349,12 @@ Oklahoma City
 Okolona
 Ola
 Olathe
-Olathe
 Old Saybrook
 Old Town
 Oldsmar
 Oliver
 Olney Springs
 Olustee
-Omaha
 Omaha
 Omega
 Oneonta
@@ -1389,7 +1363,6 @@ Opa-locka
 Opelika
 Opp
 Orange
-Orange
 Orange City
 Orange Cove
 Orange Lake
@@ -1397,7 +1370,6 @@ Orange Park
 Orchard City
 Orchard Hill
 Ordway
-Orlando
 Orlando
 Ormond Beach
 Oro Grande
@@ -1424,7 +1396,6 @@ Palisade
 Palm Bay
 Palm Beach Shores
 Palm Springs
-Palmdale
 Palmdale
 Palmer Lake
 Palmetto
@@ -1462,11 +1433,9 @@ Pelham
 Pell City
 Pembroke
 Pembroke Pines
-Pembroke Pines
 Pendergrass
 Pennington
 Pensacola
-Peoria
 Peoria
 Perote
 Perrine
@@ -1477,7 +1446,6 @@ Petrey
 Phenix City
 Phil Campbell
 Philadelphia
-Phoenix
 Phoenix
 Pickensville
 Piedmont
@@ -1513,7 +1481,6 @@ Pleasant Plains
 Pleasanton
 Plumerville
 Plymouth
-Plymouth
 Pocahontas
 Polk City
 Pomona
@@ -1527,7 +1494,6 @@ Port Mayaca
 Port Saint Lucie
 Port Wentworth
 Portal
-Portland
 Portland
 Potter Valley
 Poulan
@@ -1544,7 +1510,6 @@ Punta Gorda
 Putnam
 Putnam Hall
 Quincy
-Quitman
 Quitman
 Raleigh
 Ramah
@@ -1605,7 +1570,6 @@ Rochelle
 Rochester
 Rock Spring
 Rockford
-Rockford
 Rocklin
 Rocky Ford
 Roe
@@ -1637,9 +1601,7 @@ Saint Paul
 Saint Petersburg
 Sale City
 Salem
-Salem
 Salida
-Salinas
 Salinas
 Salitpa
 Salt Lake City
@@ -1683,7 +1645,6 @@ Schaal
 Scotia
 Scotland
 Scottsboro
-Scottsdale
 Scottsdale
 Scranton
 Screven
@@ -1774,7 +1735,6 @@ St. Marks
 St. Paul
 St. Petersburg
 Stafford Springs
-Stamford
 Stamford
 Stamps
 Stapleton
@@ -1882,7 +1842,6 @@ Trumann
 Trumbull
 Tuckerman
 Tucson
-Tucson
 Tulsa
 Turlock
 Turrell
@@ -1946,11 +1905,8 @@ Walsh
 Ward
 Warm Springs
 Warren
-Warren
 Warrior
 Washington
-
-Waterbury
 Waterbury
 Waterloo
 Watkins
@@ -1979,7 +1935,6 @@ West Valley City
 Westcliffe
 Western Grove
 Westminster
-Westminster
 Weston
 Westport
 Westville
@@ -2005,7 +1960,6 @@ Willcox
 Williams
 Williford
 Williston
-Wilmington
 Wilmington
 Wilmot
 Wilson
