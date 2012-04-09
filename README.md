@@ -48,7 +48,7 @@ _(The order listed here may or may not be the actual order of when I start worki
 
 ## Acknowledgements
 
-This project was inspired by [Faker](http://faker.rubyforge.org/) _(Ruby is cool)_ which in turn was inspired by [Data::Faker](http://search.cpan.org/~wsheldahl/Data-Faker-0.10_01/lib/Data/Faker.pm)
+This project was inspired by [fFaker](https://github.com/EmmanuelOga/ffaker) _(Ruby is cool)_ which in turn was inspired by [Data::Faker](http://search.cpan.org/~wsheldahl/Data-Faker-0.10_01/lib/Data/Faker.pm)
 
 Photo by [Ford APA](http://flickr.com/photos/fordapa/) under Creative Commons.
 

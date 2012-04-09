@@ -18,6 +18,9 @@ package fakedatamaker.people;
 
 
 public class FakePersonFactory{
+	private FakePersonFactory() {
+
+	}
 	
 	public static FakePerson makePerson(){
 		return null;

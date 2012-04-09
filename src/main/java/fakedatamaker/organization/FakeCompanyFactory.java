@@ -16,8 +16,11 @@
 
 package fakedatamaker.organization;
 
-
 public class FakeCompanyFactory {
+	private FakeCompanyFactory() {
+
+	}
+	
 	public static FakeCompany makeCompany(){
 		return null;
 	}
